@@ -11,7 +11,10 @@ const AllCourses = () => {
     const [courses, setCourses] = useState([])
 
     const [selectCourse, setSelectCourse] = useState([]);
-    console.log(selectCourse)
+
+    const [totalCourseHour, setTotalCourseHour] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(0);
+
 
 
     useEffect(() => {
@@ -21,11 +24,23 @@ const AllCourses = () => {
     }, [])
 
 
-    // const handelSelectToAddCourse = (course) => {
-    //     const newSelectCourse = [...course, course];
+    const handelSelectToAddCourse = (course) => {
 
-    //     setSelectCourse(newSelectCourse)
-    // }
+        const alreadyExist = selectCourse.find(courseId => courseId.id === course.id)
+        if (alreadyExist) {
+            return (alert('already exist'))
+        }
+        else {
+            const courseHour = totalCourseHour + course.credit_hour;
+            setTotalCourseHour(courseHour)
+            const coursePrice = totalPrice + course.price;
+            setTotalPrice(coursePrice)
+            const newSelectCourse = [...selectCourse, course];
+            setSelectCourse(newSelectCourse)
+        }
+
+
+    }
 
 
     return (
@@ -41,10 +56,16 @@ const AllCourses = () => {
             </div>
             <div className="course-name">
                 <h2>Course Name</h2>
-                {
-                    selectCourse.map(sCourse => <li key={sCourse.id}>{sCourse.title}</li>)
-                }
+                <ol>
+                    {
+                        selectCourse.map(sCourse => <li key={sCourse.id}>{sCourse.title}</li>)
+                    }
+                </ol>
 
+                <hr />
+                <h2>Total Course Hour= {totalCourseHour}</h2>
+                <hr />
+                <h2>Total Price= {totalPrice}</h2>
             </div>
 
         </div>
