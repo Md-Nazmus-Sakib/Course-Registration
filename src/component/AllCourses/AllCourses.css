@@ -39,15 +39,15 @@
     .all-course {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+
     }
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
     .course-container {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+
     }
 
     .course-name {
@@ -58,7 +58,7 @@
 
     .all-course {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        grid-template-columns: 1fr;
+
     }
 }
