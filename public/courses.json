@@ -3,7 +3,7 @@
         "id": 1,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Introduction to Programming",
-        "description": "This comprehensive course is designed to introduce you to the exciting world of programming. Whether you're a complete beginner or have some prior experience, you'll learn the fundamentals of programming, including variables, loops, functions, and more. By the end of this course, you'll have the skills to write basic programs and explore further in the programming field.",
+        "description": "This comprehensive course is designed to you'll learn the fundamentals of programming, including variables, loops, functions, and more. By the end of this course, you'll have the skills to write basic programs and explore further in the programming field.",
         "price": 99,
         "credit_hour": 3
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Web Development Bootcamp",
-        "description": "Become a web development pro with our intensive bootcamp! You'll dive deep into HTML, CSS, JavaScript, and popular web development frameworks. By the end of this course, you'll be able to create stunning websites and web applications, and you'll have a strong foundation for a career in web development.",
+        "description": "Become a web development You'll dive deep into HTML, CSS, JavaScript, and popular web development frameworks. By the end of this course, you'll be able to create stunning websites and web applications, and strong foundation for a career in web development.",
         "price": 149,
         "credit_hour": 4
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Data Science Essentials",
-        "description": "Unlock the power of data with this course! You'll learn data analysis, visualization, and machine learning techniques. Dive into real-world datasets and gain insights to make data-driven decisions. This course is essential for anyone looking to start a career in data science or enhance their data analysis skills.",
+        "description": "You'll learn data analysis, visualization, and machine learning techniques. Dive into real-world datasets and gain insights to make data-driven decisions. This course is essential for anyone looking to start a career in data science or enhance their data analysis skills.",
         "price": 129,
         "credit_hour": 3
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Cybersecurity Fundamentals",
-        "description": "Protect your digital world from threats! Explore the basics of cybersecurity, including network security, encryption, and ethical hacking. Learn to identify and mitigate cyber threats, making your online presence more secure. Ideal for those interested in cybersecurity careers or safeguarding their personal data.",
+        "description": "Protect your digital world from threats! Explore the basics of cybersecurity, including network security, encryption, and ethical hacking. Learn to identify and mitigate cyber threats, making your online presence more secure.",
         "price": 119,
         "credit_hour": 2
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Network Administration",
-        "description": "Master the art of network administration! Dive into network protocols, configurations, and troubleshooting. Learn how to manage computer networks efficiently and ensure seamless connectivity. This course is perfect for aspiring network administrators and IT professionals.",
+        "description": "Dive into network protocols, configurations, and troubleshooting. Learn how to manage computer networks efficiently and ensure seamless connectivity. This course is perfect for network administrators and IT professionals.",
         "price": 129,
         "credit_hour": 3
     },
@@ -51,14 +51,14 @@
         "id": 7,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
         "title": "Cloud Computing and AWS",
-        "description": "Embrace the cloud with Amazon Web Services (AWS)! Dive into cloud computing concepts and gain hands-on experience with AWS services. Learn how to deploy, manage, and scale applications in the cloud. Ideal for IT professionals and businesses looking to leverage cloud technology.",
+        "description": "Dive into cloud computing concepts and gain hands-on experience with AWS services. Learn how to deploy, manage, and scale applications in the cloud. Ideal for IT professionals and businesses looking to leverage cloud technology.",
         "price": 129,
         "credit_hour": 3
     },
     {
         "id": 8,
         "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
-        "title": "Software Development Best Practices",
+        "title": "Software Development",
         "description": "Write top-quality code with best practices! Explore software development methodologies, code reviews, and testing techniques. Learn to create maintainable and efficient software. This course is a must for software developers and engineers striving for excellence.",
         "price": 99,
         "credit_hour": 2

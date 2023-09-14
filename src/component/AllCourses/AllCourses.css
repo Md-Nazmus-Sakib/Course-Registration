@@ -1,19 +1,64 @@
 .course-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
 
 .all-course {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
 }
 
 .course-name {
     border: 2px solid grey;
     padding: 20px;
+    border-radius: 20px;
+    max-height: 500px;
+    position: sticky;
+    top: 0;
 }
 
 .added-course {
-    min-height: 300px;
+    min-height: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .course-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .course-name {
+        max-height: 600px;
+
+    }
+
+    .all-course {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .course-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    .course-name {
+
+        max-height: 600px;
+
+    }
+
+    .all-course {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }

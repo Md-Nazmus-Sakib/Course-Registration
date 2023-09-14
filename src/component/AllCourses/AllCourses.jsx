@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import './AllCourses.css'
 import Course from "../Course/Course";
-import SelectCourse from "../SelectCourse/SelectCourse";
+
 
 
 
@@ -61,8 +61,12 @@ const AllCourses = () => {
             </div>
             <div className="course-name">
                 <div>
-                    <h3>Credit Our Remaining :{totalCourseHour > 1 ? (20 - totalCourseHour) : 0} hr</h3>
+                    {totalCourseHour > 1 ?
+                        <h3>Credit Hour Remaining : {20 - totalCourseHour} hr</h3> :
+                        <h3>You Can Select at list 20 hours Credit</h3>
+                    }
                 </div>
+                <hr />
                 <h2>Course Name</h2>
                 <ol className="added-course">
                     {
@@ -71,7 +75,7 @@ const AllCourses = () => {
                 </ol>
 
                 <hr />
-                <h2>Total Course Hour : {totalCourseHour}</h2>
+                <h2>Total Credit Hour : {totalCourseHour}</h2>
                 <hr />
                 <h2>Total Price : {totalPrice}</h2>
             </div>
