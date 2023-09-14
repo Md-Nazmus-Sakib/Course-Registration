@@ -1,0 +1,15 @@
+.course-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.all-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.course-name {
+    border: 2px solid grey;
+    padding: 20px;
+}
