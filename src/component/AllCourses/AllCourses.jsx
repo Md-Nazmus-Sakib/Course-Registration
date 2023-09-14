@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import './AllCourses.css'
 import Course from "../Course/Course";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -28,12 +30,19 @@ const AllCourses = () => {
 
         const alreadyExist = selectCourse.find(courseId => courseId.id === course.id)
         if (alreadyExist) {
-            return (alert('already exist'))
+
+            toast.error('😅 You Add This Course !!! Please select another one.', {
+                position: "top-center",
+                theme: "colored",
+            });
         }
         else {
             const courseHour = totalCourseHour + course.credit_hour;
             if (courseHour > 20) {
-                return (alert('to much added course'))
+                toast.error('🚀 You can not exceed total credit hours more than 20 hours !!! You can not add More.', {
+                    position: "top-center",
+                    theme: "colored",
+                });
             }
             else {
                 setTotalCourseHour(courseHour)
@@ -41,8 +50,11 @@ const AllCourses = () => {
                 setTotalPrice(coursePrice)
                 const newSelectCourse = [...selectCourse, course];
                 setSelectCourse(newSelectCourse)
+
             }
         }
+
+
 
 
     }
@@ -79,6 +91,9 @@ const AllCourses = () => {
                 <hr />
                 <h2>Total Price : {totalPrice}</h2>
             </div>
+
+
+            <ToastContainer />
 
         </div>
     );

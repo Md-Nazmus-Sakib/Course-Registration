@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/LJhj8Cp/Rectangle-2-2.png",
         "title": "Introduction to Programming",
         "description": "This comprehensive course is designed to you'll learn the fundamentals of programming, including variables, loops, functions, and more. By the end of this course, you'll have the skills to write basic programs and explore further in the programming field.",
         "price": 99,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/KzHbp8g/Rectangle-2-5.png",
         "title": "Web Development Bootcamp",
         "description": "Become a web development You'll dive deep into HTML, CSS, JavaScript, and popular web development frameworks. By the end of this course, you'll be able to create stunning websites and web applications, and strong foundation for a career in web development.",
         "price": 149,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/s9MyMXk/Rectangle-2-3.png",
         "title": "Data Science Essentials",
         "description": "You'll learn data analysis, visualization, and machine learning techniques. Dive into real-world datasets and gain insights to make data-driven decisions. This course is essential for anyone looking to start a career in data science or enhance their data analysis skills.",
         "price": 129,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/qrw620T/Rectangle-2-6.png",
         "title": "Cybersecurity Fundamentals",
         "description": "Protect your digital world from threats! Explore the basics of cybersecurity, including network security, encryption, and ethical hacking. Learn to identify and mitigate cyber threats, making your online presence more secure.",
         "price": 119,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/F6YD6Pp/Rectangle-3.png",
         "title": "Network Administration",
         "description": "Dive into network protocols, configurations, and troubleshooting. Learn how to manage computer networks efficiently and ensure seamless connectivity. This course is perfect for network administrators and IT professionals.",
         "price": 129,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/4TQL0z8/Rectangle-2-1.png",
         "title": "Database Management",
         "description": "Unlock the secrets of efficient data storage! Explore relational databases, SQL, and database design. Learn to create and manage databases for various applications. This course is essential for database administrators and developers working with data-driven applications.",
         "price": 179,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/BVRcrVq/Rectangle-3-1.png",
         "title": "Cloud Computing and AWS",
         "description": "Dive into cloud computing concepts and gain hands-on experience with AWS services. Learn how to deploy, manage, and scale applications in the cloud. Ideal for IT professionals and businesses looking to leverage cloud technology.",
         "price": 129,
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/YccV5RZ/Rectangle-2.png",
         "title": "Software Development",
         "description": "Write top-quality code with best practices! Explore software development methodologies, code reviews, and testing techniques. Learn to create maintainable and efficient software. This course is a must for software developers and engineers striving for excellence.",
         "price": 99,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "image": "https://cdn1.careeraddict.com/uploads/article/60468/computer-science-course.jpg",
+        "image": "https://i.ibb.co/NWH6MWF/Rectangle-2-4.png",
         "title": "IT Project Management",
         "description": "Manage IT projects effectively from start to finish! Dive into project planning, execution, and monitoring. Learn to deliver projects on time and within budget. This course is perfect for IT project managers and professionals looking to enhance their project management skills.",
         "price": 109,
