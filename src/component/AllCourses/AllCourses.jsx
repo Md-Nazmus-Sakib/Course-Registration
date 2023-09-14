@@ -32,11 +32,16 @@ const AllCourses = () => {
         }
         else {
             const courseHour = totalCourseHour + course.credit_hour;
-            setTotalCourseHour(courseHour)
-            const coursePrice = totalPrice + course.price;
-            setTotalPrice(coursePrice)
-            const newSelectCourse = [...selectCourse, course];
-            setSelectCourse(newSelectCourse)
+            if (courseHour > 20) {
+                return (alert('to much added course'))
+            }
+            else {
+                setTotalCourseHour(courseHour)
+                const coursePrice = totalPrice + course.price;
+                setTotalPrice(coursePrice)
+                const newSelectCourse = [...selectCourse, course];
+                setSelectCourse(newSelectCourse)
+            }
         }
 
 
@@ -55,17 +60,20 @@ const AllCourses = () => {
                 }
             </div>
             <div className="course-name">
+                <div>
+                    <h3>Credit Our Remaining :{totalCourseHour > 1 ? (20 - totalCourseHour) : 0} hr</h3>
+                </div>
                 <h2>Course Name</h2>
-                <ol>
+                <ol className="added-course">
                     {
                         selectCourse.map(sCourse => <li key={sCourse.id}>{sCourse.title}</li>)
                     }
                 </ol>
 
                 <hr />
-                <h2>Total Course Hour= {totalCourseHour}</h2>
+                <h2>Total Course Hour : {totalCourseHour}</h2>
                 <hr />
-                <h2>Total Price= {totalPrice}</h2>
+                <h2>Total Price : {totalPrice}</h2>
             </div>
 
         </div>

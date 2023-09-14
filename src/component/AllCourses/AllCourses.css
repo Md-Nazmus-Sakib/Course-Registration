@@ -13,3 +13,7 @@
     border: 2px solid grey;
     padding: 20px;
 }
+
+.added-course {
+    min-height: 300px;
+}
