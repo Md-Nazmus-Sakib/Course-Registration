@@ -21,6 +21,7 @@
 .card-footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .btn-select {
@@ -46,6 +47,29 @@
     background-color: blue;
 
 
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-big {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.flex-center h4 {
+    margin-left: 5px;
+}
+
+.hero-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
 
 }
 
