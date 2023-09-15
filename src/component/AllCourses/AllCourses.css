@@ -15,7 +15,7 @@
     border: 2px solid grey;
     padding: 20px;
     border-radius: 20px;
-    max-height: 500px;
+    height: 500px;
     position: sticky;
     top: 0;
 }
@@ -31,10 +31,7 @@
         grid-template-columns: 1fr;
     }
 
-    .course-name {
-        height: 650px;
 
-    }
 
     .all-course {
         display: grid;
@@ -50,11 +47,7 @@
 
     }
 
-    .course-name {
 
-        max-height: 600px;
-
-    }
 
     .all-course {
         display: grid;

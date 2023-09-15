@@ -89,7 +89,7 @@ const AllCourses = () => {
                 <hr />
                 <h2>Total Credit Hour : {totalCourseHour}</h2>
                 <hr />
-                <h2>Total Price : {totalPrice}</h2>
+                <h2>Total Price : {totalPrice} USD</h2>
             </div>
 
 
